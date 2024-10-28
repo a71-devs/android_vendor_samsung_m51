@@ -179,6 +179,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
 	soc_specific: true,
@@ -201,6 +202,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
 	soc_specific: true,
@@ -465,6 +467,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	relative_install_path: "camera/components",
 	prefer: true,
 	soc_specific: true,
@@ -1769,6 +1772,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1811,6 +1815,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -1858,7 +1863,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.camera.device@1.0",
+	name: "vendor.qti.hardware.camera.device@1.0_vendor",
+	stem: "vendor.qti.hardware.camera.device@1.0",
 	owner: "samsung",
 	strip: {
 		none: true,

@@ -160,7 +160,7 @@ PRODUCT_PACKAGES += \
     libvdis_core \
     libvdis_interface \
     sensors.grip \
-    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@1.0_vendor \
     vendor.qti.hardware.fingerprint@1.0 \
     com.qti.stats.aec \
     com.qti.stats.af \
